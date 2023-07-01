@@ -1,0 +1,54 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(169, 232, 204);
+}
+h1{
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin-top: 70px;
+    font-family: "Source Serif Pro";
+    font-size: 40px;
+}
+label{
+    font-weight: bold;
+    font-size: 20px;
+}
+.wrapper{
+    background-color: #f8fcfc;
+    width: 450px;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    padding: 70px 40px;
+    left: 50%;
+    top: 50%;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.25);
+    border-radius: 50px;
+}
+.submit{
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    left: 40%;
+}
+.submit:hover{
+    background-color: rgb(6, 2, 2);
+    color: rgb(254, 251, 251);
+}
+.input{
+    outline: none;
+    padding: 5px;
+}
+select{
+    outline: none;
+    padding: 5px;
+    margin-left: 20px ;
+}
+.output{
+    color: rgb(11, 11, 11);
+}
